@@ -29,7 +29,7 @@ public class QueryHelper
     
     public IEnumerable<Product> GetProductsByPriceGreaterOrEqual(double price)
     {
-        return _db.Products.Where(p => p.Price <= price);
+        return _db.Products.Where(p => p.Price >= price);
     }
     
     public IEnumerable<Product> GetProductsByName(string name)
@@ -44,7 +44,7 @@ public class QueryHelper
     
     public IEnumerable<Product> GetProductsByStockGreaterOrEqual(int stock)
     {
-        return _db.Products.Where(p => p.Stock <= stock);
+        return _db.Products.Where(p => p.Stock >= stock);
     }
     
     public bool UpdateProducts(IEnumerable<Product> products)

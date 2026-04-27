@@ -1,4 +1,4 @@
-namespace ProductStorageEF.Model;
+namespace ProductStorageEF.Core.Model;
 
 public class Product
 {

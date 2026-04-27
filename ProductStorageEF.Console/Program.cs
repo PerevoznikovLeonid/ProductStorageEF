@@ -1,5 +1,4 @@
 ﻿using ProductStorageEF.Core.Model;
-using ProductStorageEF.Model;
 
 const string connectionString = @"Data Source=C:\Users\COLLEGE\RiderProjects\ProductStorageEF\ProductStorageEF.Console\products.db;";
 

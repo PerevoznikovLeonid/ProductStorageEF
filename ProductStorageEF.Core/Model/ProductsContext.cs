@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using ProductStorageEF.Model;
 
-namespace ProductStorageEF.Model;
+namespace ProductStorageEF.Core.Model;
 
 public class ProductsContext(string connectionString) : DbContext
 {
